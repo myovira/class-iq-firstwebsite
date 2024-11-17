@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --common-paading: 0 8vh;
+    --primary-brand-color: #c2f578;
+    --primary-text-color: #000;
+    --font-family: Arial, Helvetica, sans-serif;
+  }
+  /*Header styling start */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: val(--common-paading);
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 15px;
+    padding-left: 50px;
+  }
+  
+  .header-left a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+  }
+  .header-left .logo-container {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+  }
+  .header-right button {
+    border: none;
+    background-color: #000;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 4px;
+  }
+  .header-right{
+      padding-right: 25px;
+  }
+  .SignUp-btn {
+    margin-right: 24px;
+  }
+  .para4{
+    text-align: center;
+    padding-top: 50px;
+  }
+  .input-name{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   text-align: center;
+    padding: var(--common-paading);
+    border-radius: 10px;
+}
+button{
+    background-color: var(--primary-brand-color);
+    color: #000000;
+    font-size: 15px;
+    padding:4px 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+.para5{
+ font-size: 14px;
+ color: #000000;
+
+}
+.form{
+    
+}
